@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    border: solid red 1px;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: solid black 1px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
